@@ -9,7 +9,15 @@ Este projeto é uma API de chat que contém um sistema de autenticação de usu�
 Primeiramente é necessário ter o `NodeJS` em sua máquina e um banco em `MongoDB`.
 
 ## Variáveis de ambiente
-Crie um arquivo `.env` e adicione as variáveis de ambiente presentes no `.env_example`.
+Crie um arquivo `.env` e substitua as seguintes variáveis que contém **XXXXXXXX**
+
+```env
+PORT=3000
+CONNECTIONSTRING=XXXXXXXX
+JWTSECRET=XXXXXXXX
+JWTEXPIRES=7d
+
+```
 
 ## Instalação de dependências
 
